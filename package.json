@@ -1,0 +1,14 @@
+{
+	"name": "zero-build-discordjs-typescript",
+	"type": "module",
+	"scripts": {
+		"start-bot": "node --experimental-strip-types --env-file=.env src/bot.ts",
+		"start-manager": "node --experimental-strip-types --env-file=.env src/manager.ts"
+	},
+	"dependencies": {
+		"discord.js": "^14.16.3"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	}
+}
